@@ -1,0 +1,209 @@
+body {background-color: #ffffb3; background-image: url("../images/img2.jpeg"); background-size:contain;}
+
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    margin-top: 0.625em;
+    margin-bottom: 1.250em;
+}
+#hdr{
+  content: url("../images/logo.gif");
+  border-radius: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;}
+
+nav ul {
+    list-style-type: none;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+nav li a {
+    display: block;
+    padding: 0.350em;
+    margin-top: 0.350em;
+    margin-bottom: 0.350em;
+    border-radius: 0.625em;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #404040;
+    background-color: yellow;
+}
+main {
+    display: block;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 0.350em;
+    margin-bottom: 0.350em;
+    padding: 0.625em;
+    background-color: #FFFFFF;}
+main ul {list-style-type: none;}
+main ul li {margin-bottom: 0.625em;}
+ul.breadcrumb{  
+  padding: 0.625em 1em;
+  list-style: none;
+  background-color: yellow;}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1.150em;
+}
+ul.breadcrumb li+li:before {
+  padding: 0.625em;
+  content: "/\00a0";
+}
+img.intext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;;
+}
+div.fitness       { 
+  display: flex;                  
+  flex-direction: column;                          
+  justify-content: space-between;
+  text-align: center;
+  background-color: white;} 
+}
+div.fitness div   { 
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0.625em;
+  border-radius: 1.250em;
+  background-color: yellow;
+}
+.text{
+  text-align: center;
+  background-color: white;
+  font-size: 1em;
+  color: green;}
+div.fitness div a{  text-decoration: none;}
+
+img.fitnesstype {
+ border-radius: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;}
+
+footer {
+    font-size: .70em;
+    text-align: center;
+    margin-top: 1.250em;
+}
+
+
+@media only screen and (min-width: 900px) {
+    #container {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header {
+      margin-top: 0.625em;
+      margin-bottom: 1.250em;
+      background-color: #FFFFFF;
+      border-radius: 1.250em;
+      box-shadow: 0.750em 0.750em 0.750em #404040;
+      text-align: center;
+    }
+#hdr {
+  content: url("../images/logo.gif");
+  border-radius: 1em;
+  padding: 1em;
+  width: 80%;}
+    nav ul {
+        list-style: none;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.25em;
+        font-weight: bold;
+        text-align: center;
+    }		
+nav li {
+    display: inline;
+    text-decoration: none;
+}
+nav li a {
+    display: inline-block;
+    margin-top: 0.350em;
+    margin-bottom: 0.350em;
+    background-color: green;
+    color: white;
+    width: 8.000em;
+}
+nav a:hover {
+    color: #404040;
+    background-color: yellow;
+}
+
+main {
+      
+      font-family: Verdana, Arial, sans-serif;
+      font-size: 1em;
+      text-align: justify;
+      margin-top: 1.250em;
+      margin-bottom: 0.625em;
+      padding: 1.250em;
+      border-radius: 0.625em;
+      background-color: #FFFFFF;
+      box-shadow: 0.750em 0.750em 0.750em #404040;
+      overflow: auto;
+}
+main ul {list-style-type: none;}
+main ul li {margin-bottom: 0.625em;}
+ul.breadcrumb{  
+  padding: 0.625em 1em;
+  list-style: none;
+  background-color: yellow;}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1.150em;
+}
+ul.breadcrumb li+li:before {
+  padding: 0.625em;
+  content: "/\00a0";
+}
+img.intext{
+  border-radius: 10vh;
+  float: left;
+  width: 25%;
+  padding: 5%;
+  margin-top:0;
+}
+div.fitness       { 
+  display: flex;                  
+  flex-direction: row;            
+  flex-wrap: nowrap;              
+  justify-content: space-between;
+  width: 95%; 
+  background-color: white;
+  text-align: center;
+}
+div.fitness div   { 
+  width: 25%;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0.625em;
+  border-radius: 1.250em;
+  background-color: yellow;
+
+}
+.text{
+  text-align: center;
+  background-color: white;
+  font-size: 3vh;
+  color: green;
+  text-decoration: none;}
+div.fitness div a{  text-decoration: none;}
+img.fitnesstype {
+  border-radius: 5vh;
+  position: inline;
+  width: 90%;
+  padding: 5%;
+  align-content: center;}
+}
